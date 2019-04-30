@@ -11,6 +11,9 @@
 		6351DE592277D34200C26EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6351DE572277D34200C26EA1 /* Main.storyboard */; };
 		6351DE5B2277D34400C26EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6351DE5A2277D34400C26EA1 /* Assets.xcassets */; };
 		6351DE5E2277D34400C26EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6351DE5C2277D34400C26EA1 /* LaunchScreen.storyboard */; };
+		6351DE6C2277DCD400C26EA1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351DE6B2277DCD400C26EA1 /* Post.swift */; };
+		6351DE6E2277E0B300C26EA1 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351DE6D2277E0B300C26EA1 /* PostController.swift */; };
+		6351DE702278A0FC00C26EA1 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351DE6F2278A0FC00C26EA1 /* PostListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		6351DE5A2277D34400C26EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6351DE5D2277D34400C26EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6351DE5F2277D34400C26EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6351DE6B2277DCD400C26EA1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6351DE6D2277E0B300C26EA1 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		6351DE6F2278A0FC00C26EA1 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		6351DE682277D43A00C26EA1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6351DE6F2278A0FC00C26EA1 /* PostListTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -90,6 +97,7 @@
 		6351DE692277D44300C26EA1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6351DE6B2277DCD400C26EA1 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 		6351DE6A2277D44A00C26EA1 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6351DE6D2277E0B300C26EA1 /* PostController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -173,6 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6351DE542277D34200C26EA1 /* AppDelegate.swift in Sources */,
+				6351DE6C2277DCD400C26EA1 /* Post.swift in Sources */,
+				6351DE6E2277E0B300C26EA1 /* PostController.swift in Sources */,
+				6351DE702278A0FC00C26EA1 /* PostListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
